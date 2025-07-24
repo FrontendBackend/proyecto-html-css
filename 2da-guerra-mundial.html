@@ -5,128 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segunda guerra mundial</title>
-
-    <style>
-
-        /* Estilo general del cuerpo de la página */
-        body {
-            font-family: Arial, sans-serif; 
-            margin: 0; 
-            padding: 0; 
-            background-color: #f4f4f4; 
-            color: #333; 
-        }
-
-        /* Estilos del encabezado */
-        header {
-            background-color: #2c3e50; /* Fondo oscuro para el encabezado */
-            color: white; /* Texto blanco en el header */
-            text-align: center; /* Centra el texto horizontalmente */
-            padding: 20px 0; /* Espaciado vertical de 20px arriba y abajo */
-        }
-
-        /* Título principal */
-        header h1 {
-            margin: 0; /* Elimina margen superior e inferior del h1 */
-            font-size: 2.5em; /* Aumenta el tamaño del texto */
-        }
-
-        /* Subtítulo */
-        header p {
-            margin: 5px 0 0; /* Margen superior de 5px, sin margen abajo */
-            font-style: italic; /* Texto en cursiva */
-        }
-
-        /* Barra de navegación */
-        nav {
-            background-color: #34495e; /* Color de fondo azul oscuro */
-            padding: 10px; /* Espacio interno alrededor del contenido */
-            text-align: center; /* Centra los enlaces horizontalmente */
-        }
-
-        /* Enlaces dentro del nav */
-        nav a {
-            color: white; /* Texto blanco */
-            margin: 0 15px; /* Espaciado horizontal entre enlaces */
-            text-decoration: none; /* Elimina subrayado */
-            font-weight: bold; /* Texto en negrita */
-        }
-        
-        /* Estilo al pasar el mouse sobre los enlaces */
-        nav a:hover {
-            text-decoration: underline; /* Subraya el enlace al pasar el mouse */
-        }
-        
-        /* Estilos del contenido principal */
-        main {
-            padding: 20px; /* Espaciado interno */
-            max-width: 900px; /* Ancho máximo del contenido */
-            margin: auto; /* Centra el contenido horizontalmente */
-            background-color: white; /* Fondo blanco para mayor legibilidad */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-            border-radius: 8px; /* Bordes redondeados */
-        }
-
-        /* Secciones */
-        section {
-            margin-bottom: 40px; /* Espacio entre secciones */
-        }
-
-        /* Títulos secundarios */
-        h2 {
-            color: #2c3e50; /* Azul oscuro */
-            border-bottom: 2px solid #ddd; /* Línea decorativa debajo */
-            padding-bottom: 5px; /* Espacio entre texto y línea */
-        }
-
-        /* Listas sin orden */
-        ul {
-            padding-left: 20px; /* Sangría desde el borde izquierdo */
-        }
-
-        /* Listas ordenadas */
-        ol {
-            padding-left: 20px; /* Igual que ul */
-        }
-
-        /* Estilo para imágenes y su figura */
-        figure {
-            margin: 20px 0; /* Espaciado vertical alrededor de la imagen */
-            text-align: center; /* Centra la imagen */
-        }
-        
-        figure img {
-            max-width: 50%; /* La imagen no supera el ancho del contenedor */
-            height: auto; /* Mantiene la proporción de la imagen */
-            border-radius: 5px; /* Bordes ligeramente redondeados */
-        }
-
-        /* Pie de imagen */
-        figcaption {
-            font-size: 0.9em; /* Tamaño más pequeño */
-            color: #777; /* Texto gris */
-            margin-top: 5px; /* Espacio arriba de la leyenda */
-        }
-
-        /* Aside - información secundaria */
-        aside {
-            background-color: rgb(246, 250, 191); /* Fondo gris claro */
-            padding: 15px; /* Espaciado interno */
-            border-left: 5px solid #161718; /* Borde izquierdo azul */
-            margin-top: 30px; /* Espaciado con el contenido anterior */
-        }
-
-        /* Footer - pie de página */
-        footer {
-            text-align: center; /* Centra el texto */
-            padding: 15px; /* Espaciado interno */
-            background-color: #2c3e50; /* Fondo igual al header */
-            color: white; /* Texto blanco */
-            margin-top: 40px; /* Espacio superior con el contenido */
-            border-top: 2px solid #ccc; /* Línea separadora superior */
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 
 <!-- Cuerpo de la página; todo lo que se muestra al usuario -->
@@ -153,7 +33,7 @@
     <main><!-- Contenido principal del documento -->
 
         <!-- SECCIÓN INICIO -->
-        <section>
+        <section id="inicio">
             <!-- Título de segundo nivel -->
             <h2>¿Qué fue la Segunda Guerra Mundial?</h2>
 
@@ -179,7 +59,7 @@
 
 
         <!-- SECCIÓN CAUSAS -->
-        <section> <!-- Sección para causas -->
+        <section id="causas"> <!-- Sección para causas -->
             <h2>Causas del Conflicto</h2>
             <article>
 
@@ -195,7 +75,7 @@
 
 
         <!-- SECCIÓN BATALLAS -->
-        <section> 
+        <section id="batallas"> 
             <h2>Principales Batallas</h2>
             <article>
                 <ol> <!-- Lista ordenada -->
@@ -208,7 +88,7 @@
 
 
         <!-- SECCIÓN CONSECUENCIAS -->
-        <section>
+        <section id="consecuencias">
             <h2>Consecuencias del Conflicto</h2>
             <article>
                 <p>
